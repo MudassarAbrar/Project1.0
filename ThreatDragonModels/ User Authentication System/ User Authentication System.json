@@ -1,0 +1,26 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": " User Authentication System",
+    "owner": "Mudassir ",
+    "description": "- DFD: User -> Web Server -> Session Manager -> User Database.\n- Threats:\n  1. Spoofing: Credential stuffing on login. Mitigation: MFA, Rate limiting.\n  2. Tampering: Session token manipulation. Mitigation: Signed/Encrypted tokens.\n  3. Information Disclosure: Plaintext passwords in DB. Mitigation: Argon2 hashing.\n  4. Denial of Service: Brute force exhausting resources. Mitigation: Account lockout.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New generic diagram",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
